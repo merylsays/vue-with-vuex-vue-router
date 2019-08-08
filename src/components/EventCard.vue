@@ -1,11 +1,11 @@
 <template lang="html">
-  <div>
+  <router-link :to="{ name: 'event-show', params: { id: event.id } }">
     <div class="event-card -shadow">
       <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
       <h4 class="title">{{ event.title }}</h4>
       <span>{{ event.attendees.length }} attending</span>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>
