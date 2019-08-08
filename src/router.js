@@ -7,6 +7,7 @@ import EventShow from "./views/EventShow.vue";
 Vue.use(Router);
 
 export default new Router({
+  mode: "history",
   routes: [
     {
       path: "/",
@@ -14,7 +15,7 @@ export default new Router({
       component: EventList
     },
     {
-      path: "/event",
+      path: "/event/:id",
       name: "event-show",
       component: EventShow,
       props: true

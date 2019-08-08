@@ -1,5 +1,7 @@
 <template lang="html">
-  <h1>Create Event</h1>
+  <div>
+    <h1>Create Event</h1>
+  </div>
 </template>
 
 <script>
