@@ -8,7 +8,13 @@
 </template>
 
 <script>
-export default {};
+import EventCard from "@/components/EventCard.vue";
+
+export default {
+  components: {
+    EventCard
+  }
+};
 </script>
 
 <style lang="css" scoped></style>
