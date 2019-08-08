@@ -8,7 +8,22 @@
 export default {
   data() {
     return {
-      title: "Event Name Placeholder"
+      event: {
+        id: 1,
+        title: "Event Name Placeholder",
+        date: "Wed August 19, 2019",
+        time: "6:00PM",
+        attendees: [
+          {
+            id: "abc123",
+            name: "John Doe"
+          },
+          {
+            id: "def456",
+            name: "Jane Doe"
+          }
+        ]
+      }
     };
   }
 };
