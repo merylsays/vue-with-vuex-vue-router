@@ -1,11 +1,9 @@
 <template lang="html">
-  <h1>Create Event</h2>
+  <h1>Create Event</h1>
 </template>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
-<style lang="css" scoped>
-</style>
+<style lang="css" scoped></style>
